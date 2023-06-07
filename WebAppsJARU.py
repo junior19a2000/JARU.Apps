@@ -5,7 +5,7 @@ import time
 st.set_page_config(page_title = "JARU Apps", page_icon = "🦅", layout = "wide")
 
 @st.cache_data
-def load_gif():
+def load_gif(gif):
     file_1   = open(r'SearchIT.gif', "rb")
     content1 = file_1.read()
     gif1     = base64.b64encode(content1).decode("utf-8")
@@ -16,7 +16,7 @@ def load_gif():
     file_2.close()
     return gif1, gif2
 
-gif1, gif2 = load_gif()
+gif1, gif2 = load_gif('gif')
 
 col1, col2 = st.columns([1, 1])
 with col1:
