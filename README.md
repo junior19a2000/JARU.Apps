@@ -7,10 +7,13 @@ Click aquí para acceder a las apps → [![Streamlit App](https://static.streaml
 
 Te ayudara a buscar resoluciones parecidas a las que quieras desarrollar, mediante el uso de palabras clave que permitan identificar dicha resolución. Ademas, podras visualizar dichas resoluciones sin necesidad de descargarlas.
 <br>
+<br>
 <img src="SearchIT.gif" width="100%">
+<br>
 <br>
 ## App Creator
 
 Te ayudara generar el proyecto de resolución en si, pero mas rápido de lo normal, ya que los datos que se encuentren disponibles en el expediente se agregaran en el documento Word de manera automática. Ademas, podras agregar parrafos segun tus necesidades.
+<br>
 <br>
 <img src="Creator.gif" width="100%">
